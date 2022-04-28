@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    color: white;
+}
+#page1{
+    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    height: 1000px;
+}
+#toprow{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#page2{
+    display: flex; 
+    flex-direction: column;
+}
+img{
+    max-height: 300px;
+    max-width: 500px;
+}
+#passage1{
+        background-color: black;
+        justify-content: space-between;
+        padding-bottom: 60px;
+}
+#passage1 p{
+    text-align: right;
+}
+#passage1 h1{
+    text-align: right;
+    
+}
+#passage2{
+    padding-bottom: 60px;
+    background-color: #28282B;
+}
+#passage2 img{
+    margin-left: 1470px;
+}
+
+#passage3{
+    padding-bottom: 60px;
+    background-color: #353935;
+}
+#passage3 p{
+    text-align: right;
+}
+#passage3 h1{
+    text-align: right;
+}
+#page2 h1{
+    position: relative;
+    top: -100px;
+}
+#page2 p{
+    position: relative;
+    top: -35px;
+    right: 545px;
+}
+#page2 img{
+    position: relative;
+    bottom: -50px;
+    margin-bottom: -68px;
+    margin-top: -49px;
+}
+#passage2 p{
+    right: -590px
+}
+#passage2 h1{
+    left: 1110px;
+}
+#passage1, #passage3, h1{
+    right: 1065px;
+}
